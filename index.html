@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monty Hall Game | Ahmad Graham</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Monty Hall Game</h1>
+    </header>
+    <main>
+        <div class="door-container">
+            <div id="door1" class="door">
+
+            </div>
+            <div id="door2" class="door">
+                
+            </div>
+            <div id="door3" class="door">
+                
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="switch">
+                <p>Switched door</p>
+                <div class="stats">
+                    <div id="switchedWinContainer" class="win">
+                        <p>won: <p id="switchedWins">0</p></p>
+                        <p id="switchedWinPercentage" class="win-percentage">0%</p>
+                    </div>
+                    <div id="switchedLosesContainer" class="lose">
+                        <p>lost: <p id="switchedLoses">0</p></p>
+                        <p id="switchedLossPercentage" class="lose-percentage">0%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kept">
+                <p>Kept door</p>
+                <div class="stats">
+                    <div id="keptWinContainer" class="win">
+                        <p>won: <p id="keptWins">0</p></p>
+                        <p id="keptWinPercentage" class="win-percentage">0%</p>
+                    </div>
+                    <div id="keptLosesContainer" class="lose">
+                        <p>lost: <p id="keptLoses">0</p></p>
+                        <p id="keptLossPercentage" class="lose-percentage">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="startGame">Play</div>
+    </main>
+    <footer>
+        <p>Copyright © Ahmad Graham 2022</p>
+        <p>Created by <a href="https://ahmadgraham.me/">Ahmad Graham</a></p>
+    </footer>
+</body>
+</html>
