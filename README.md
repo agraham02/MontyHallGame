@@ -19,6 +19,10 @@ Inspired by the Monty Hall problem, this interactive web game allows you to play
 * [] introduction / instructions
 
 ## How to Install/Run Project
+1. Click on green *Code* dropdown
+2. Click Download Zip
+3. Once downloaded, extract the file
+4. Once extracted, open *index.html*
 
 ## Credits
 
